@@ -1,0 +1,25 @@
+.leaflet-container {
+	background-color:#fafafa;
+}
+#alumni-map {
+	aspect-ratio: 16 / 9;
+	width: 100%;
+}
+
+#armed-forces {
+	margin-bottom: 2rem;
+	text-align: center;
+}
+#armed-forces dt, #armed-forces dd {
+	display: inline;
+	margin: 0; padding: 0;
+}
+#armed-forces dt::before {
+	content: '\025FE'
+}
+#armed-forces dt::after {
+	content: ': '
+}
+#armed-forces dd {
+	padding-right: 1rem;
+}
